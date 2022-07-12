@@ -1,0 +1,41 @@
+body > table {
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+table.list {
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 6px;
+}
+
+tr:nth-child(even),
+table.list thead > tr {
+  background-color: #dddddd;
+}
+
+input {
+  width: 80%;
+  padding: 12px 20px;
+  margin: 1px 0;
+  display: inline-block;
+}
+
+.tittle {
+  margin: 0px;
+  /* max-width: 600px; */
+  /* color: red; */
+  /* font-size: 34px; */
+  display: flex;
+  align-items: center;
+  /* height: 80vh; */
+  justify-content: center;
+}

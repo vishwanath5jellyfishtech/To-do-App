@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo list using javascript</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <table class="tittle">
+        <tr>
+          <td>
+            <form
+              onsubmit="event.preventDefault();onFormSubmit();"
+              autocomplete="off"
+            >
+              <div>
+                <label>TO-DO List</label>
+                <input type="text" name="todo" id="todo" />
+              </div>
+              <div class="form-action-buttons">
+                <input type="submit" value="Submit" />
+              </div>
+            </form>
+          </td>
+        </tr>
+      </table>
+      <td>
+        <!-- table list -->
+        <table class="list" id="employeeList">
+          <thead>
+            <tr>
+              <th>TODOES</th>
+              <th></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </td>
+      <script src="./script.js"></script>
+    </div>
+  </body>
+</html>
+
+<!-- <div class="tittle">
+      <h1>Hello World</h1>
+      <input type="text" />
+      <button>ADD</button>  -->
